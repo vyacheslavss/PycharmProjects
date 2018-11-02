@@ -18,6 +18,14 @@ def for3():
         print(persone)
     print('Finish for3')
 
+    def for4():
+        print('Start for4')
+        persones = {'first_name': 'Slava', 'lastname': 'Starusev', 'age': 50}
+        for persone in persones.keys():
+            print(persone)
+        print('Finish for4')
+
 for1()
 for2()
 for3()
+for4()
